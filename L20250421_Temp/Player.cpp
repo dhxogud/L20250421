@@ -3,7 +3,7 @@
 
 APlayer::APlayer()
 {
-
+	
 }
 
 APlayer::~APlayer()
@@ -13,5 +13,10 @@ APlayer::~APlayer()
 
 void APlayer::Tick()
 {
-	std::cout << "Player Tick" << std::endl;
+
+}
+
+void APlayer::Render()
+{
+
 }

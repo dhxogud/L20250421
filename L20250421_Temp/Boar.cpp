@@ -1,9 +1,10 @@
 #include "Boar.h"
 #include <iostream>
+#include "Actor.h"
 
 ABoar::ABoar()
 {
-
+	
 }
 ABoar:: ~ABoar()
 {
@@ -12,11 +13,15 @@ ABoar:: ~ABoar()
 
 void ABoar::Tick()
 {
-	std::cout << "Boar Tick" << std::endl;
+	
 }
-
 
 void ABoar::Move()
 {
-	std::cout << "goblin ¶Ú´Ù!" << std::endl;
+	
+}
+
+void ABoar::Render()
+{
+
 }

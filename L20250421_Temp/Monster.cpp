@@ -1,5 +1,6 @@
 #include "Monster.h"
 #include <iostream>
+#include "Actor.h"
 
 AMonster::AMonster()
 {
@@ -21,4 +22,9 @@ void AMonster::Tick()
 void AMonster::clear()
 {
 	std::cout << "Å¬¸®¾î" << std::endl;
+}
+
+void AMonster::Render()
+{
+
 }

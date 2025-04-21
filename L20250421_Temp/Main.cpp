@@ -49,7 +49,7 @@ int main()
 
 	MyWorld->Run();
 
-	MyWorld->ClearAllActors();
+	MyWorld->Clear();
 
 	delete MyWorld;
 	MyWorld = nullptr;

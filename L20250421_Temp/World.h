@@ -3,6 +3,7 @@
 #include <vector>
 #include "Actor.h"
 
+
 class AActor;
 
 class UWorld
@@ -15,7 +16,7 @@ public:
 	void SpawnActor(AActor* SpawnedAtor);
 
 	void Run();
-	void ClearAllActors();
+	void Clear();
 
 protected:
 	std::vector<AActor*> Actors;

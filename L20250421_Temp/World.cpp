@@ -1,6 +1,6 @@
 #include "World.h"
 #include <conio.h>
-
+#include "Actor.h"
 
 UWorld::UWorld()
 {
@@ -27,17 +27,13 @@ void UWorld::Run()
 	{
 		for (auto Actor : Actors)
 		{
+			Actor->Render();
 			Actor->Tick();
-		}
-		int Key = _getch();
-		if (Key == 27)
-		{
-			break;
 		}
 	}
 }
 
-void UWorld::ClearAllActors()
+void UWorld::Clear()
 {
 	for (auto Actor : Actors)
 	{

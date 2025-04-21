@@ -11,9 +11,9 @@ class AMonster : public AActor
 public:
 	AMonster();
 	virtual ~AMonster();
-
 	virtual void Tick();
 	virtual void Move();
+	virtual void Render();
 	void clear();
 };
 
