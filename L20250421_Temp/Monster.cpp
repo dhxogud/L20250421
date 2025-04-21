@@ -4,7 +4,7 @@
 
 AMonster::AMonster()
 {
-	
+	Shape = 'M';
 }
 
 AMonster::~AMonster()
@@ -22,9 +22,4 @@ void AMonster::Tick()
 void AMonster::clear()
 {
 	std::cout << "Å¬¸®¾î" << std::endl;
-}
-
-void AMonster::Render()
-{
-
 }

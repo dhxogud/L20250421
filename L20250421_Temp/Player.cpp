@@ -3,7 +3,7 @@
 
 APlayer::APlayer()
 {
-	
+	Shape = 'P';
 }
 
 APlayer::~APlayer()

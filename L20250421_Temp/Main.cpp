@@ -13,6 +13,8 @@
 #include "Slime.h"
 #include "Boar.h"
 #include "Player.h"
+#include "Floor.h"
+#include "Wall.h"
 
 using namespace std;
 
@@ -40,16 +42,16 @@ int main()
 
 	UWorld* MyWorld = new UWorld();
 
-	MyWorld->SpawnActor(new ASlime());
-	MyWorld->SpawnActor(new AGoblin());
-	
-	//Player, Boar
-	MyWorld -> SpawnActor(new APlayer());
+	//MyWorld->SpawnActor(new ASlime());
+	//MyWorld->SpawnActor(new AGoblin());
+	//
+	////Player, Boar
+	//MyWorld -> SpawnActor(new APlayer());
 	MyWorld -> SpawnActor(new ABoar());
+	//MyWorld->SpawnActor(new AWall());
+	//MyWorld->SpawnActor(new AFloor());
 
 	MyWorld->Run();
-
-	MyWorld->Clear();
 
 	delete MyWorld;
 	MyWorld = nullptr;

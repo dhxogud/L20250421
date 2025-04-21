@@ -14,9 +14,7 @@ public:
 
 	std::vector<AActor*> GetActors();
 	void SpawnActor(AActor* SpawnedAtor);
-
 	void Run();
-	void Clear();
 
 protected:
 	std::vector<AActor*> Actors;

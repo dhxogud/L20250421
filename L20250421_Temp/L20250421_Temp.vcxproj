@@ -130,6 +130,7 @@
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Boar.cpp" />
     <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="FVector2D.cpp" />
     <ClCompile Include="Goblin.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Monster.cpp" />
@@ -142,9 +143,11 @@
     <ClInclude Include="Actor.h" />
     <ClInclude Include="Boar.h" />
     <ClInclude Include="Floor.h" />
+    <ClInclude Include="FVector2D.h" />
     <ClInclude Include="Goblin.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Slime.h" />
     <ClInclude Include="Wall.h" />
     <ClInclude Include="World.h" />

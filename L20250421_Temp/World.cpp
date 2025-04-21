@@ -32,12 +32,3 @@ void UWorld::Run()
 		}
 	}
 }
-
-void UWorld::Clear()
-{
-	for (auto Actor : Actors)
-	{
-		delete Actor;
-		Actor = nullptr;
-	}
-}

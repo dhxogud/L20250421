@@ -11,6 +11,5 @@ public:
 
 	virtual void Move() override;
 	virtual void Tick() override;
-	virtual void Render() override;
 };
 

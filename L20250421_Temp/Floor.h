@@ -2,7 +2,7 @@
 #include "Actor.h"
 
 
-class AFloor : AActor
+class AFloor : public AActor
 {
 public:
 	AFloor();

@@ -4,7 +4,7 @@
 
 ABoar::ABoar()
 {
-	
+	Shape = 'B';
 }
 ABoar:: ~ABoar()
 {
@@ -19,9 +19,4 @@ void ABoar::Tick()
 void ABoar::Move()
 {
 	
-}
-
-void ABoar::Render()
-{
-
 }
